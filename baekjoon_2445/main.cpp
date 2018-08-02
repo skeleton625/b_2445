@@ -19,3 +19,15 @@ int main()
 	}
 	return 0;
 }
+
+/*
+int k = 1;
+
+	for (int i = 1; i > 0; i+=k) {
+		for (int j = 1; j <= i; j++)printf("*");
+		for (int j = 1; j <= (n - i) * 2; j++)printf(" ");
+		for (int j = 1; j <= i; j++)printf("*");
+		if (i == n)k *= -1;
+		printf("\n");
+	}
+*/
